@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  
+  <p>Contador de segundos na web:</p>
+
+  <h1 id="contagem">aqui de novo</h1>
+
+  <script>
+    let segundos = 0;
+
+    function conta() {
+      contagem.innerText = segundos;
+      segundos += 1;
+      setTimeout(conta, 1000);
+    }
+
+    conta();
+  </script>
+</body>
+</html>
