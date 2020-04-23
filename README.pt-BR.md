@@ -1,3 +1,0 @@
-# teste
-
-pt-br
